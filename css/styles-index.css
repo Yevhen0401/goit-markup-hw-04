@@ -114,8 +114,8 @@ nav {
 
 .icon {
     margin-right: 10px;
+    fill:currentColor;
 }
-
 
 
 span {
@@ -151,7 +151,6 @@ span {
 
 .auth-icon {
     display: flex;
-    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     cursor: pointer;
@@ -159,7 +158,8 @@ span {
 }
 
 .mail-link {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -176,7 +176,8 @@ span {
 } 
 
 .phone-link {
-    display: inline-block;
+    display: flex;
+    align-items: center;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
