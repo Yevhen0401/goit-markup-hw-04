@@ -181,15 +181,10 @@ display: flex;
     height: 120px;
     background-color: var(--color-background-hover-button);
     margin-bottom: 30px;
-} 
-
-.details .details-icon {
     display: flex;
-    align-items: center;
     justify-content: center;
-    margin: auto;
-}
-
+    align-items: center;
+} 
 
 /* ====Мейн==== */
 
@@ -402,17 +397,17 @@ display: flex;
     border-radius: 4px;
 }
 
-.clients-link:hover,
-.clients-link:focus {
-    border-color: var(--color-background-hover);
-}
-
 .clients-icon {
     fill: #AFB1B8;;
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
+.clients-link:hover ,
+.clients-link:focus {
+    border-color: var(--color-background-hover);
+} 
+
+.clients-link:hover svg,
+.clients-link:focus svg {
     fill: var(--color-background-hover);
 }
 
