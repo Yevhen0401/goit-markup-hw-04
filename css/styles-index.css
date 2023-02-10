@@ -375,9 +375,6 @@ display: flex;
     justify-content: center;
 }
 
-.clients-icon-div {
-    
-}
 
 .clients-item {
     display: flex;
@@ -509,7 +506,6 @@ display: flex;
     text-transform: uppercase;
     color: var(--color-hover);
 }
-
 .network-item {
     display: flex;
     margin-top: 20px;  
